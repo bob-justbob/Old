@@ -6,6 +6,7 @@ body {
 }
 body, html {
     height: 100%;
+    width: 100%;
 }
 header {
     width: 1700px;
