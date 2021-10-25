@@ -46,7 +46,7 @@ li {
     margin-right: auto;
     width: 100%;
     height: 1000px;
-    background-image: url(../img/banner.jpg);
+    background-image: linear-gradient(rgba(3, 3, 3, 0.288),rgba(3, 3, 3, 0.288)), url(../img/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
