@@ -110,26 +110,26 @@ section {
 }
 /* gallery */
 .gallery_div {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    height: 1000px;
+    display: grid;
+    grid-gap: 3px 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 2fr;
+    width: 100%;
+    overflow: hidden;
     
 }
 
 .gallert_item {
-    height: 20px;
-    width: 200px;
-    height: 300px;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-    padding-left: 100px;
+    display: flex;
+    grid-column: span 1;
 }
 .gallert_item img {
-    margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
+    display: block;
+    position: relative;
+    height: 495px;
+    background: #000000;
+    text-align: center;
 }
 /* contact */
 .contact_header {
