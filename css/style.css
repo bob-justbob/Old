@@ -61,10 +61,21 @@ li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
     font-size: 50px;
 }
-
+.text-animation {
+    color: yellow;
+    animation-name: example;
+    animation-duration: 8s;
+    font-size: 60px;
+    transform: scale(1);
+}
+@keyframes example {
+    from {color: brown;}
+    to {color: yellow;}
+    0% {font-size: 5px;}
+    15% {font-size: 20px;}
+  }
 /* section-1 */
 section {
     position: relative;
@@ -107,6 +118,66 @@ section {
     font-size: 30px;
     text-align: center;
     color: rgba(189, 170, 170, 0.842);
+}
+/* World */
+.world {
+    background-image: url(../img/world.jpg);
+    height: 100%;
+    width: 100%;
+}
+/* gear */
+.all-gear {
+    display: grid;
+    position: relative;
+    padding: 10px;
+    grid-column: 3;
+    grid-row: 1;
+    height: 900px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+.gear-item {
+    border: 5px solid red;
+    display: block;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+}
+#gear-itme1 {
+    background-image: url(../img/heavy.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gear-itme2 {
+    background-image: url(../img/medium.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gear-itme3 {
+    background-image: url(../img/light.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* fraction */
+.main-faction {
+    display: grid;
+    position: relative;
+    padding: 10px;
+    grid-column: 3;
+    grid-row: 1;
+    height: 900px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+.fraction-item {
+    display: block;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+}
+.fraction-item p {
+    color: white;
+    font-weight: bold;
 }
 /* gallery */
 .gallery_div {
