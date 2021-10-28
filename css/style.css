@@ -78,8 +78,6 @@ li {
   }
 /* section-1 */
 section {
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
     position: relative;
     margin-left: auto;
