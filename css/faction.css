@@ -1,0 +1,50 @@
+/* .faction {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.faction-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px 10px;
+    width: 100%;
+    border: 5px solid yellow;
+}
+.faction-item {
+    height: 400px;
+}
+#syndicate {
+    background-image: url(../img/synd.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+
+}
+#covenant {
+    background-image: url(../img/covenent.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+
+}
+#marauders {
+    background-image: url(../img/Maraders.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+
+}
+.faction-item h2 {
+    color: red;
+    font-size: 40px;
+}
+.faction-item p {
+    color: white;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+} */

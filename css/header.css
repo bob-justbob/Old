@@ -1,0 +1,95 @@
+header {
+    background-color: black;
+}
+header .head {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+}
+header img {
+    width: 50px;
+    height: 50px;
+}
+header nav {
+    width: 100%;
+    float: right;
+}
+header ul {
+    width: 50%;
+    margin: auto;
+    padding: 0;
+}
+header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+header ul li a {
+    display: inline-block;
+    margin-right: 50px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: red;
+}
+.boxing {
+    display: none;
+    padding: 11.2px;
+    border: 1px solid #ffffff;
+    outline: 1.8px solid #3AB6B2;
+    background: #3AB6B2;
+  } 
+
+.boxing  div {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 3px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    outline: 1.8px solid #3AB6B2;
+    background: #3AB6B2;
+  } 
+  
+.burger div:last-of-type {
+    margin-top: -0.5px;
+}
+
+@media screen and (max-width: 767px){
+    header nav {
+        display: none;
+        padding: 30% 0;
+    }
+    .boxing {
+        display: block;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    header nav {
+        display: none;
+    }
+    .boxing {
+        display: block;
+        margin-right: 15px;
+    }
+    .header img{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    header nav {
+        width: auto;
+        margin: auto;
+    }
+    header ul {
+        width: auto;
+    }
+}

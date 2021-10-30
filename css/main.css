@@ -1,0 +1,27 @@
+@import './banner.css';
+@import './contacts.css';
+@import './footer.css';
+@import './gallery.css';
+@import './header.css';
+@import './about.css';
+@import './world.css';
+@import './gear.css';
+@import './faction.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    display: block;
+    background: linear-gradient(to right, blue, gray);
+}

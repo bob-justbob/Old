@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+footer a img {
+    height: 30px;
+    padding-right: 30px;
+}
+.footer-logos {
+    display: flex;
+    width: 200px;
+    margin: auto;
+}
+footer h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}

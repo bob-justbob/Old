@@ -1,0 +1,29 @@
+.gallery {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    
+}
+.gallery-div {
+    display: grid;
+    grid-gap: 3px 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 2fr;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.gallery-item img {
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 495px;
+    background: #000000;
+    text-align: center;
+    object-fit: cover;
+    margin: auto;
+}
+#span {
+    grid-column: 1/2;
+}
+

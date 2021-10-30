@@ -1,0 +1,125 @@
+.banner {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner h2 {
+    color: brown;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.banner p {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.text-animation {
+  color: yellow;
+  animation-name: example;
+  animation-duration: 4s;
+  transform: scale(1);
+  
+}
+@keyframes example {
+  from {color: brown;}
+  to {color: yellow;}
+  0% {font-size: 10px;}
+  15% {font-size: 60px;}
+}
+
+@media screen and (max-width: 1025px) {
+    .banner .banner-text .text h4 {
+      font-size: 50px;
+      word-spacing: 2px;
+      letter-spacing: 0.2;
+    }
+    .banner .banner-text .text h3 {
+      font-size: 62px;
+      word-spacing: 2px;
+      letter-spacing: 0.2;
+    }
+    .banner .banner-text .text p {
+      display: none;
+    }
+    .banner .banner-text .text .mobile {
+      display: block;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .banner .banner-text .text h4 {
+      font-size: 40px;
+      word-spacing: 2px;
+      letter-spacing: 0.2;
+    }
+    .banner .banner-text .text h3 {
+      font-size: 52px;
+      word-spacing: 2px;
+      letter-spacing: 0.2;
+    }
+    .banner .banner-text .text p {
+      display: none;
+    }
+    .banner .banner-text .text .mobile {
+      display: block;
+      font-size: 15px;
+    }
+    .banner .banner-text .text a {
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: .1px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  } 
+  
+  @media screen and (max-width: 767px) {
+    .banner .banner-text .text h4 {
+      font-size: 30px;
+      word-spacing: 2px;
+      letter-spacing: 0.2;
+    }
+    .banner .banner-text .text h3 {
+      font-size: 42px;
+      word-spacing: 2px;
+      letter-spacing: 0.2;
+    }
+    .banner .banner-text .text p {
+      display: none;
+    }
+    .banner .banner-text .text .mobile {
+      display: block;
+      font-size: 10px;
+    }
+    .banner .banner-text .text a {
+      font-size: 9px;
+      font-weight: bold;
+      letter-spacing: .1px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .banner {
+      height: auto;
+    }
+  } 
+  
+  @media screen and (max-width: 320px) {
+    .jumbotron .banner-text h2 {
+      font-size: 20px;
+      word-spacing: 2px;
+      letter-spacing: 0.2;
+    }
+    .jumbotron .banner-text .text p {
+      display: none;
+    }
+  } 
