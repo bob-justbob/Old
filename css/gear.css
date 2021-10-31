@@ -47,7 +47,7 @@ background-position: center;
         grid-template-rows: repeat(3, 1fr);
     }
     }
-@media screen and (max-width: 967px){ 
+@media screen and (max-width: 767px){ 
     .gear-item {
         height: 100%;
     }
