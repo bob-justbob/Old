@@ -23,7 +23,12 @@
     object-fit: cover;
     margin: auto;
 }
-#span {
-    grid-column: 1/2;
-}
 
+
+
+
+@media screen and (max-width: 1025px){
+    .gallery-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
