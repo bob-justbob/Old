@@ -37,44 +37,44 @@
 }
 
 @media screen and (max-width: 1025px) {
-    .banner .banner-text .text h4 {
+    .banner .banner-text {
       font-size: 50px;
       word-spacing: 2px;
       letter-spacing: 0.2;
     }
-    .banner .banner-text .text h3 {
+    .banner .banner-text {
       font-size: 62px;
       word-spacing: 2px;
       letter-spacing: 0.2;
     }
-    .banner .banner-text .text p {
+    .banner .banner-text {
       display: none;
     }
-    .banner .banner-text .text .mobile {
+    .banner .banner-text{
       display: block;
       font-size: 20px;
     }
   }
   
   @media screen and (max-width: 950px) {
-    .banner .banner-text .text h4 {
+    .banner .banner-text {
       font-size: 40px;
       word-spacing: 2px;
       letter-spacing: 0.2;
     }
-    .banner .banner-text .text h3 {
+    .banner .banner-text {
       font-size: 52px;
       word-spacing: 2px;
       letter-spacing: 0.2;
     }
-    .banner .banner-text .text p {
+    .banner .banner-text {
       display: none;
     }
-    .banner .banner-text .text .mobile {
+    .banner .banner-text {
       display: block;
       font-size: 15px;
     }
-    .banner .banner-text .text a {
+    .banner .banner-text{
       font-size: 13px;
       font-weight: bold;
       letter-spacing: .1px;
@@ -84,24 +84,24 @@
   } 
   
   @media screen and (max-width: 767px) {
-    .banner .banner-text .text h4 {
+    .banner .banner-text  {
       font-size: 30px;
       word-spacing: 2px;
       letter-spacing: 0.2;
     }
-    .banner .banner-text .text h3 {
+    .banner .banner-text {
       font-size: 42px;
       word-spacing: 2px;
       letter-spacing: 0.2;
     }
-    .banner .banner-text .text p {
+    .banner .banner-text {
       display: none;
     }
-    .banner .banner-text .text .mobile {
+    .banner .banner-text {
       display: block;
       font-size: 10px;
     }
-    .banner .banner-text .text a {
+    .banner .banner-text {
       font-size: 9px;
       font-weight: bold;
       letter-spacing: .1px;
@@ -119,7 +119,7 @@
       word-spacing: 2px;
       letter-spacing: 0.2;
     }
-    .jumbotron .banner-text .text p {
+    .jumbotron .banner-text  {
       display: none;
     }
   } 
