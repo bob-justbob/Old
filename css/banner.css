@@ -1,5 +1,6 @@
 .banner {
-    width: 100%;
+    width: 90%;
+    margin: 10px auto;
     display: flex;
     position: relative;
     align-items: center;
@@ -112,8 +113,14 @@
       height: auto;
     }
   } 
-  
-  @media screen and (max-width: 320px) {
+    
+
+  @media (min-width: 520px){
+    .banner {
+      width: 100%;
+      height: 700px;
+      margin-bottom: 0;
+    }
     .jumbotron .banner-text h2 {
       font-size: 20px;
       word-spacing: 2px;
@@ -122,4 +129,4 @@
     .jumbotron .banner-text  {
       display: none;
     }
-  } 
+  }

@@ -1,7 +1,6 @@
 .about {
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 11px 0 200px;
 }
@@ -20,13 +19,30 @@
     margin: auto;
 }
 .paragraf {
-    width: 90%;
-    font-size: 20px;
+    width: 60%;
+    font-size: 2.5em;
     height: 350px;
     font-weight: bold;
     margin: auto;
+    color: rgb(22, 21, 21);
 }
 .paragraff {
     margin: auto;
 }
 
+
+@media (min-width: 560px){
+    .paragraf {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .about {
+        height: 1500px;
+        margin-top: 200px;
+    }
+    .about-content{
+        height: 1500px;
+
+    }
+}

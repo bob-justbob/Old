@@ -23,5 +23,5 @@ html, body {
 }
 body {
     display: block;
-    background: linear-gradient(to right, blue, gray);
+    background: linear-gradient(to right, rgba(133, 133, 149, 0.513), gray);
 }

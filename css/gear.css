@@ -72,7 +72,7 @@ background-position: center;
     }
     #gear-item2 {
     }
-
+}
 
 @media screen and (max-width: 1025px){ 
 .gear-item {
@@ -81,4 +81,9 @@ background-position: center;
 .gear-div {
     grid-template-columns: repeat(1, 1fr);
 }
+}
+
+@media (min-width: 560px){
+
+
 }
